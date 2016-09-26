@@ -21,15 +21,11 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/header_height"
         android:layout_alignTop="@id/recycler_view"
-        android:padding="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
         android:gravity="center_vertical"
         android:background="@android:color/white"
-        tools:text="Favorites"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_below="@id/sticky_header"
-        android:background="#40000000"/>
+        android:elevation="4dp"
+        tools:text="Header 1"/>
 
 </RelativeLayout>
